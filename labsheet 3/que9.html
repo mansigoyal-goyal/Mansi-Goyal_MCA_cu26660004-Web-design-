@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="text" placeholder="Enter text">
+<button id="add">Add</button>
+
+<ul id="list"></ul>
+
+<script>
+document.getElementById("add").addEventListener("click", function() {
+
+    let text = document.getElementById("text").value;
+
+    let li = document.createElement("li");
+
+    li.innerHTML = text;
+
+    document.getElementById("list").appendChild(li);
+
+    document.getElementById("text").value = "";
+});
+</script>
+
+</body>
+</html>
