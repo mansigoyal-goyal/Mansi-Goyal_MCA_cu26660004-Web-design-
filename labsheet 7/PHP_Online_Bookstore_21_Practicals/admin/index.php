@@ -1,0 +1,1 @@
+<?php require '../includes/functions.php';admin_required();header('Location: books.php');exit;?>

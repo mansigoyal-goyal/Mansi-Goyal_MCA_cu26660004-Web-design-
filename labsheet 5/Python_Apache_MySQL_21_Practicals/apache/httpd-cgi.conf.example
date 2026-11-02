@@ -1,0 +1,8 @@
+# Example only: adapt the path and module for your Apache installation.
+# Enable mod_cgi or mod_cgid in Apache's main configuration.
+ScriptAlias /cgi-bin/ "C:/xampp/htdocs/Python_Apache_MySQL_21_Practicals/cgi-bin/"
+<Directory "C:/xampp/htdocs/Python_Apache_MySQL_21_Practicals/cgi-bin">
+    Options +ExecCGI
+    AddHandler cgi-script .py
+    Require all granted
+</Directory>

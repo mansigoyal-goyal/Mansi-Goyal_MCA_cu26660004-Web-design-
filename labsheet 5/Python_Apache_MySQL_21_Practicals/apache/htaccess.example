@@ -1,0 +1,4 @@
+# Example .htaccess; Apache must permit these overrides.
+Options +ExecCGI
+AddHandler cgi-script .py
+# Never enable CGI execution inside upload directories.

@@ -1,0 +1,2 @@
+# Practical Index
+Q01 CGI Hello World; Q02 connector installation; Q03 server version; Q04 create database/table; Q05 executemany insert; Q06 HTML output; Q07 CGI form insert; Q08 update; Q09 delete; Q10 Apache handlers; Q11 parameterized filter; Q12 connection pool; Q13 logging; Q14 CSV bulk insert; Q15 SQLAlchemy ORM; Q16 Flask JSON endpoint; Q17 mysqldump backup; Q18 DB sessions; Q19 input validation; Q20 venv/mod_wsgi; Q21 analytics report.

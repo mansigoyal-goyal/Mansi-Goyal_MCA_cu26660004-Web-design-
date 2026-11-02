@@ -1,0 +1,7 @@
+# Illustrative mod_wsgi directives. Replace all paths with absolute local paths.
+WSGIDaemonProcess python_web_app python-home=/absolute/path/to/project/.venv python-path=/absolute/path/to/project
+WSGIProcessGroup python_web_app
+WSGIScriptAlias /api /absolute/path/to/project/wsgi.py
+<Directory /absolute/path/to/project>
+    Require all granted
+</Directory>

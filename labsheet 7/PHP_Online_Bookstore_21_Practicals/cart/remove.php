@@ -1,0 +1,1 @@
+<?php require '../includes/functions.php';unset($_SESSION['cart'][(int)($_GET['id']??0)]);header('Location: index.php');exit;?>
