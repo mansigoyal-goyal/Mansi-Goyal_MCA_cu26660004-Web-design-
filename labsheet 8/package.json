@@ -1,0 +1,10 @@
+{
+  "name": "hearth-and-crumb",
+  "version": "1.0.0",
+  "description": "MCA108P lab project - responsive bakery website",
+  "scripts": {
+    "build": "csso css/styles.css -o css/styles.min.css && terser js/main.js -c -m -o js/main.min.js && terser js/booking.js -c -m -o js/booking.min.js",
+    "start": "npx http-server . -p 8080 -c-1"
+  },
+  "devDependencies": { "csso-cli": "^4.0.2", "terser": "^5.31.0" }
+}

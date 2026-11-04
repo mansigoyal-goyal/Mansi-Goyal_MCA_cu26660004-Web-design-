@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit & Book a Table | Hearth & Crumb Bakery</title>
+  <meta name="description" content="Find Hearth & Crumb Bakery on the map, see opening hours and reserve a table online.">
+  <meta name="theme-color" content="#8a3516">
+  <link rel="canonical" href="https://www.hearthandcrumb.example/contact.html">
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hearth &amp; Crumb Bakery">
+  <meta property="og:title" content="Visit & Book a Table | Hearth & Crumb Bakery">
+  <meta property="og:description" content="Find Hearth & Crumb Bakery on the map, see opening hours and reserve a table online.">
+  <meta property="og:url" content="https://www.hearthandcrumb.example/contact.html">
+  <meta property="og:image" content="https://www.hearthandcrumb.example/images/hero-bread.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html"><img src="images/logo.svg" alt="" width="40" height="40"> Hearth &amp; Crumb</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav" aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="contact.html" aria-current="page">Visit &amp; Book</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section">
+      <div class="container contact-grid">
+        <div id="booking">
+          <h1>Reserve a table</h1>
+          <p>Fill in the form and we will confirm your booking by email.</p>
+          <form id="booking-form" class="form" novalidate>
+            <div><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error" aria-invalid="false" required><p class="error" id="name-error" role="alert"></p></div>
+            <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error" aria-invalid="false" required><p class="error" id="email-error" role="alert"></p></div>
+            <div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="phone-error" aria-invalid="false" required><p class="error" id="phone-error" role="alert"></p></div>
+            <div><label for="date">Date</label><input id="date" name="date" type="date"  aria-describedby="date-error" aria-invalid="false" required><p class="error" id="date-error" role="alert"></p></div>
+            <div><label for="time">Time</label><input id="time" name="time" type="time" min="07:00" max="18:30" aria-describedby="time-error" aria-invalid="false" required><p class="error" id="time-error" role="alert"></p></div>
+            <div><label for="guests">Number of guests (1–12)</label><input id="guests" name="guests" type="number" min="1" max="12" value="2" aria-describedby="guests-error" aria-invalid="false" required><p class="error" id="guests-error" role="alert"></p></div>
+            <button class="btn" type="submit">Request booking</button>
+          </form>
+          <p id="booking-success" class="form-success" role="status" tabindex="-1" hidden></p>
+        </div>
+        <div>
+          <h2>Find us</h2>
+          <div class="map-wrap">
+            <iframe title="Map showing Hearth &amp; Crumb Bakery location in Pune" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Shaniwar+Wada+Pune&amp;output=embed"></iframe>
+          </div>
+          <address>12 Baker Street, Old Town, Pune 411001<br><a href="tel:+912025550123">+91 20 2555 0123</a></address>
+          <p>Open daily 7:00 am – 7:00 pm.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <section aria-labelledby="f-visit">
+        <h2 id="f-visit">Visit us</h2>
+        <address>
+          12 Baker Street, Old Town<br>
+          Pune, Maharashtra 411001<br>
+          <a href="tel:+912025550123">+91 20 2555 0123</a><br>
+          <a href="mailto:hello@hearthandcrumb.example">hello@hearthandcrumb.example</a>
+        </address>
+        <p>Open daily 7:00 am – 7:00 pm</p>
+      </section>
+      <section aria-labelledby="f-social">
+        <h2 id="f-social">From our feed</h2>
+        <ul class="social-feed">
+          <li><strong>@hearthandcrumb</strong> – Fresh sourdough out of the oven at 7am! 🍞</li>
+          <li><strong>@hearthandcrumb</strong> – Saturday special: cardamom morning buns.</li>
+          <li><strong>@hearthandcrumb</strong> – Thank you for 5 wonderful years, Old Town!</li>
+        </ul>
+        <p><a href="https://www.instagram.com/" rel="noopener">Follow us on Instagram</a></p>
+      </section>
+      <section aria-labelledby="f-share">
+        <h2 id="f-share">Share this page</h2>
+        <ul class="share-list">
+          <li><a data-share="facebook" href="#" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a data-share="x" href="#" target="_blank" rel="noopener">X</a></li>
+          <li><a data-share="whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </section>
+    </div>
+    <p class="container copyright">&copy; 2026 Hearth &amp; Crumb Bakery (fictional client for MCA108P lab project).</p>
+  </footer>
+  <script src="js/main.min.js" defer></script>
+  <script src="js/booking.min.js" defer></script>
+</body>
+</html>
